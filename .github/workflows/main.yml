@@ -6,6 +6,7 @@ jobs:
     steps:
       - name: Group of log lines
         run: |
-            echo "::group::My title"
+            echo "group My title"
             echo "Inside group"
-            echo "::endgroup::"
+            echo "endgroup"
+            echo "end to end close"
