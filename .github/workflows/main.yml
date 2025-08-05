@@ -1,8 +1,11 @@
 name: hello-world
 on: push
 jobs:
-  my-job:
+  bash-example:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step
-        run: echo "Hello World!"
+      - name: Group of log lines
+        run: |
+            echo "::group::My title"
+            echo "Inside group"
+            echo "::endgroup::"
