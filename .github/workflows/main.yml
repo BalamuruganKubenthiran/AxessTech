@@ -6,8 +6,6 @@ jobs:
     steps:
       - name: Group of log lines
         run: |
-            echo "group My title"
-            echo "Inside group"
-            echo "endgroup"
-            echo "end to end close"
-            echo "trigger later"
+            echo "v-accel ai dynamics"
+            echo "welcome to github"
+            echo "hello devops"
